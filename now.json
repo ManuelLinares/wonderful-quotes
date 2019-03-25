@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "name": "udemy-vue.js",
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@now/static-build"
+    },
+    {
+      "src": "index.html",
+      "use": "@now/static"
+    }
+  ],
+  "alias": "wonderfulquotes.now.sh",
+  "public": true
+}
